@@ -1,3 +1,12 @@
+### SG modifications
+
+I have slightly modified the Qwen2_VL_7b_Instruct notebook to accept a folder of images as input, and to write the result to dataframe/export to csv. A default prompt ("Extract text") is pre-populated.
+
+Try it out at [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shawngraham/Qwen2-VL-jupyter/blob/main/Qwen2-VL-ocr.ipynb) | Qwen for OCR!
+
+
+### Original README.md
+
 🐣 Please follow me for new updates https://twitter.com/camenduru <br />
 🔥 Please join our discord server https://discord.gg/k5BwmmvJJU <br />
 🥳 Please join my patreon community https://patreon.com/camenduru <br />
