@@ -1,3 +1,19 @@
+### More SG Modifications
+
+Ok, the 'app.py' works (or at least, the version previous to me messing with it.) You can run it on collab with:
+
+```
+%cd /content
+#!wget https://raw.githubusercontent.com/camenduru/Qwen-VL-Chat-colab/main/app.py -O /content/app.py
+!wget https://raw.githubusercontent.com/shawngraham/Qwen2-VL-jupyter/refs/heads/main/app.py -O /content/app.py 
+
+!pip install -q tiktoken transformers_stream_generator gradio==3.50.2 optimum auto-gptq huggingface_hub
+!pip install -q modelscope -f https://pypi.org/project/modelscope
+
+!python app.py --share
+```
+in a cell. Source of app.py: [camenduru/Qwen-VL-Chat-colab](https://github.com/camenduru/Qwen-VL-Chat-colab)
+
 ### SG modifications
 
 I have slightly modified the Qwen2_VL_7b_Instruct notebook to accept a folder of images as input, and to write the result to dataframe/export to csv. A default prompt ("Extract text") is pre-populated.
